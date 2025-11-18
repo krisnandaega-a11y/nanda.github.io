@@ -30,6 +30,14 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 
+  <a href="#" onclick="logoutFeane()">Logout</a>
+<script>
+function logoutFeane() {
+  localStorage.removeItem('feane_loggedin');
+  window.location.href = "Login.html";
+}
+</script>
+
 </head>
 
 <body>
