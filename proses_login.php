@@ -20,5 +20,10 @@ if (mysqli_num_rows($result) == 1) {
     }
 } else {
     echo "Username tidak ditemukan!";
+    <form action="proses_login.php" method="POST">
+  <!-- input username & password -->
+  ...
+</form>
 }
+
 ?>
